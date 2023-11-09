@@ -80,9 +80,6 @@
         height: 40px;
         
     }
-    .content{
-        margin-top: 50px;
-    }
     #menu{
         display: block;
     }
@@ -92,11 +89,17 @@
         
     }
     
+    .content{
+        margin-top: 50px;
+    }
     .text h1{
         font-size: 20px;
-         
+      
         
     }
+    .explore{
+        margin-top: 30px;
+    }   
     .spaceText{
         
         font-size: 100px;
@@ -107,6 +110,9 @@
         line-height: 24px;
         text-align: justify;
         padding: 5px;
+    }
+    .attribution{
+        width: 90%;
     }
 }
 
@@ -120,8 +126,5 @@
         
         font-size: 80px;
     }
-    #explore{
-        bottom: 20px;
-        padding: 80px 50px;
-    }
+    
 }
