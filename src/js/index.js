@@ -1,4 +1,3 @@
-
 // -----------------------destiny page
 
 // descrição do planeta
@@ -11,12 +10,12 @@ $(".imageMoon").show();
 
 //moon
 $("#moon").click(() => {
-  $(".descricao").fadeOut();
+  $(".descricao").hide();
   $(".moonDescri").fadeIn(400);
 
   //desaparecer imagens
-  $(".planet").fadeOut();
-  $(".imageMoon").fadeIn(400);
+  $(".planet").hide();
+  $(".imageMoon").show();
   //remove--add border bottom
   $(".nav-btn").children().filter(".btnActive").removeClass("btnActive");
   $("#moon").addClass("btnActive");
@@ -24,11 +23,11 @@ $("#moon").click(() => {
 
 // mars
 $("#mars").click(() => {
-  $(".descricao").fadeOut();
+  $(".descricao").hide();
   $(".marsDescri").fadeIn(400);
   //desaparecer imagens
-  $(".planet").fadeOut();
-  $(".imageMars").fadeIn(400);
+  $(".planet").hide();
+  $(".imageMars").show();
   //remove--add border bottom
   $(".nav-btn").children().filter(".btnActive").removeClass("btnActive");
   $("#mars").addClass("btnActive");
@@ -36,11 +35,11 @@ $("#mars").click(() => {
 
 //europa
 $("#europa").click(() => {
-  $(".descricao").fadeOut();
+  $(".descricao").hide();
   $(".europaDescri").fadeIn(400);
   // desaparecer imagens
-  $(".planet").fadeOut();
-  $(".imageEuropa").fadeIn(400);
+  $(".planet").hide();
+  $(".imageEuropa").show();
   //remove--add border bottom
   $(".nav-btn").children().filter(".btnActive").removeClass("btnActive");
   $("#europa").addClass("btnActive");
@@ -48,13 +47,12 @@ $("#europa").click(() => {
 
 // titan
 $("#titan").click(() => {
-  $(".descricao").fadeOut();
+  $(".descricao").hide();
   $(".titanDescri").fadeIn(400);
   //desaparecer imagens
-  $(".planet").fadeOut();
-  $(".imageTitan").fadeIn(400);
+  $(".planet").hide();
+  $(".imageTitan").show();
   //remove--add border bottom
   $(".nav-btn").children().filter(".btnActive").removeClass("btnActive");
   $("#titan").addClass("btnActive");
 });
-
