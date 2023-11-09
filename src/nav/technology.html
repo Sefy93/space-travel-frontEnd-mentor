@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/techStyle.css">
+    <link rel="stylesheet" href="../css/techStyleResponsive.css"">
+    <link rel=" shortcut icon" href="../assets/favicon-32x32.png" type="image/x-icon">
+    <title>Space page FrontEnd Mentor</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="top-bar">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../assets/shared/logo.svg" alt="logo">
+                </a>
+            </div>
+            <hr class="divider">
+            <ul class="nav-bar">
+
+                <li><a id="home" href="../../index.html">00 Home</a></li>
+                <li><a id="destination" href="./destination.html">01 Destination</a></li>
+                <li><a id="crew" href="./crew.html">02 Crew</a></li>
+                <li><a id="technology" href="./technology.html">03 Technology</a></li>
+            </ul>
+            <button id="menu"><img src="../assets/shared/icon-hamburger.svg" alt=""></button>
+            <button id="menuClose"><img src="../assets/shared/icon-close.svg" alt=""></button>
+        </div>
+        <div class="content">
+            <h2>SPACE LAUNCH 101</h2>
+            <div class="corousel">
+                <div class="carousel-nav">
+                    <button id="item1" class=" btn btn-active">1</button>
+                    <button class="btn" id="item2">2</button>
+                    <button class="btn" id="item3">3</button>
+                </div>
+                <div class="tech item1 active">
+                    <div class="tech-description">
+                        <span>THE TERMINOLOGY...</span>
+                        <h2>LAUNCH VEHICLE</h2>
+                        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from
+                            Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the
+                            most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on
+                            the launch pad!</p>
+                    </div>
+                    <img src="../assets/technology/image-launch-vehicle-portrait.jpg" alt="launch vehicle">
+                </div>
+                <div class="tech item2 ">
+                    <div class="tech-description">
+                        <span>THE TERMINOLOGY...</span>
+                        <h2>SPACEPORT</h2>
+                        <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to
+                            the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our
+                            spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+                    </div>
+                    <img src="../assets/technology/image-spaceport-portrait.jpg" alt="spaceport">
+                </div>
+                <div class="tech item3">
+                    <div class="tech-description">
+                        <span>THE TERMINOLOGY...</span>
+                        <h2>SPACE CAPSULE</h2>
+                        <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to
+                            reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time
+                            during the flight. It includes a space gym, cinema, and plenty of other activities to keep
+                            you entertained.</p>
+                    </div>
+                    <img src="../assets/technology/image-space-capsule-portrait.jpg" alt="vehicle landscape">
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="../js/tech.js"></script>
+        <script src="../js/nav-menu.js"></script>
+</body>
+
+</html>

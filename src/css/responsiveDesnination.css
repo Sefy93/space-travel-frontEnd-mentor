@@ -1,0 +1,107 @@
+@media (max-width:1100px){
+    .description{
+        gap: 100px;
+        margin-top: 50px;
+        transition: 0.4s;
+    }
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width:965px){
+    .container{
+        width: 100%;
+    }
+    .description{
+        justify-content: space-between;
+        margin-top: 50px;
+        transition: 0.4s;
+        padding: 70px;
+    }
+    hr{
+        width: 30%;
+        margin-right: -30px;
+    }
+}
+
+@media (max-width:850px){
+    .divider{display: none;}
+    .nav-bar{
+        width: 80%;
+        height: 80px;
+    }
+}
+
+@media (max-width:820px){
+    .container{
+        height: 100%;
+        background-image: url("../assets/destination/background-destination-tablet.jpg");
+    }
+    .description{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    } 
+    .planetImages img{
+        position: static;
+    }
+    .descricao{
+        
+        position:static;
+    }
+    .nav-destination{
+        margin-top: -40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px){
+    .nav-bar{
+        width: 90%;
+       
+    }
+}
+
+@media (max-width:580px){
+    .nav-bar{
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 200px;
+        height: 100%;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding-top: 100px;
+        transition: 0.4s;
+    }
+    .nav-bar li{
+        height: 40px;
+        
+    }
+    #menu{
+        display: block;
+    }
+}
+
+@media(max-width:375px){
+    
+   
+    .planetImages img{
+        width: 200px;
+    }
+
+    .descricao{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .nav-btn{
+        gap: 10px;
+    }
+    
+        
+}

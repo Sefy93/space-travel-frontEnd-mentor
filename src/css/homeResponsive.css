@@ -1,0 +1,124 @@
+@media(max-width:1024){
+    body{
+        width: 100vw;
+    }
+    
+    .container{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 975px) {
+  .container {
+    background-image: url("../assets/home/background-home-tablet.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  hr {
+    margin-right: -30px;
+    width: 25%;
+  }
+ 
+  .nav-bar{
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  hr {
+    display: none;
+  }
+
+
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+      
+  }
+ 
+ 
+}
+@media (max-width: 875px){
+    .nav-bar{
+        width: 80%;
+        height: 80px;
+    }
+}
+@media (max-width: 675px){
+    .nav-bar li{
+        font-size: 18px;
+    }
+    .nav-bar{
+        width: 90%;
+        height: 60px;
+        gap: 10px;
+    }
+    .logo{
+        margin-left: -20px;
+    }
+}
+@media (max-width: 500px){
+
+    .nav-bar{
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 200px;
+        height: 100%;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        padding-top: 100px;
+        transition: 0.4s;
+    }
+    .nav-bar li{
+        height: 40px;
+        
+    }
+    #menu{
+        display: block;
+    }
+
+    .text{
+       width: 90%;
+        
+    }
+    
+    .text h1{
+        font-size: 20px;
+         
+        
+    }
+    .spaceText{
+        
+        font-size: 100px;
+    }
+    
+    .text p{
+        font-size: 18px;
+        line-height: 24px;
+        text-align: justify;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 350px){
+    .text h1{
+        font-size: 18px;
+         
+        
+    }
+    .spaceText{
+        
+        font-size: 80px;
+    }
+    #explore{
+        bottom: 20px;
+        padding: 80px 50px;
+    }
+}

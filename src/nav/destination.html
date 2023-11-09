@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/destination.css">
+    <link rel="stylesheet" href="../css/responsiveDesnination.css"">
+    <link rel=" shortcut icon" href="../assets/favicon-32x32.png" type="image/x-icon">
+    <title>Space page FrontEnd Mentor</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="top-bar">
+            <div class="logo">
+                <a href="../../index.html">
+                    <img src="../assets/shared/logo.svg" alt="logo">
+                </a>
+            </div>
+            <hr class="divider">
+            <ul class="nav-bar">
+
+                <li><a id="home" href="../../index.html">00 Home</a></li>
+                <li><a id="destination" href="./src/nav/destination.html">01 Destination</a></li>
+                <li><a id="crew" href="./crew.html">02 Crew</a></li>
+                <li><a id="technology" href="./technology.html">03 Technology</a></li>
+            </ul>
+            <button id="menu"><img src="../assets/shared/icon-hamburger.svg" alt=""></button>
+            <button id="menuClose"><img src="../assets/shared/icon-close.svg" alt=""></button>
+        </div>
+        <div class="content">
+            <h2>PICK YOUR DESTINATION</h2>
+            <div class="description">
+
+                <div class="planetImages">
+                    <img class="planet imageMoon" src="../assets/destination/image-moon.png" alt="moon">
+                    <img class="planet imageMars" src="../assets/destination/image-mars.png" alt="mars">
+                    <img class="planet imageEuropa" src="../assets/destination/image-europa.png" alt="europa">
+                    <img class="planet imageTitan" src="../assets/destination/image-titan.png" alt="titan">
+                </div>
+                <div class="nav-destination">
+                    <div class="nav-btn">
+                        <button class="btn btnActive" id="moon">MOON</button>
+                        <button class="btn" id="mars">MARS</button>
+                        <button class="btn" id="europa">EUROPA</button>
+                        <button class="btn" id="titan">TITAN</button>
+                    </div>
+
+                    <div class="moonDescri descricao">
+                        <h3>Moon</h3>
+                        <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+                            regain perspective and come back refreshed. While you’re there, take in some history by
+                            visiting the Luna 2 and Apollo 11 landing sites.</p>
+                        <hr>
+                        <div class="travel">
+                            <div>
+                                <span>AVG. DISTANCE</span>
+                                <p>384,400 KM</p>
+                            </div>
+                            <div>
+                                <span>EST. TRAVEL TIME</span>
+                                <p>3 DAYS</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="marsDescri descricao">
+                        <h3>Mars</h3>
+                        <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the
+                            tallest planetary mountain in our solar system. It’s two and a half times the size of
+                            Everest!</p>
+                        <hr>
+                        <div class="travel">
+                            <div>
+                                <span>AVG. DISTANCE</span>
+                                <p>225 MIL. KM</p>
+                            </div>
+                            <div>
+                                <span>EST. TRAVEL TIME</span>
+                                <p>9 MONTHS</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="europaDescri descricao">
+                        <h3>Europa</h3>
+                        <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s
+                            dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or
+                            simple relaxation in your snug wintery cabin.</p>
+                        <hr>
+                        <div class="travel">
+                            <div>
+                                <span>AVG. DISTANCE</span>
+                                <p>628 MIL. KM</p>
+                            </div>
+                            <div>
+                                <span>EST. TRAVEL TIME</span>
+                                <p>3 YEARS</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="titanDescri descricao">
+                        <h3>Titan</h3>
+                        <p>The only moon known to have a dense atmosphere other than Earth, Titan is a home away
+                            from home (just a few hundred degrees colder!). As a bonus, you get striking views of
+                            the Rings of Saturn.</p>
+                        <hr>
+                        <div class="travel">
+                            <div>
+                                <span>AVG. DISTANCE</span>
+                                <p>1.6 BIL. KM</p>
+                            </div>
+                            <div>
+                                <span>EST. TRAVEL TIME</span>
+                                <p>7 YEARS</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="../js/index.js"></script>
+        <script src="../js/nav-menu.js"></script>
+</body>
+
+</html>

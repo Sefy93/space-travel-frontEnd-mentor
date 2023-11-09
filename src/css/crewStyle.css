@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Bellefair&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    max-width: 1440px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#crew{
+    border-bottom: 2px solid white;
+}
+#menu{
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+
+#menuClose{
+    display: none;
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.container{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    
+    
+    
+}
+hr{
+    width: 35%;
+    opacity: 0.4;
+    margin-right: -70px;
+    z-index: 2;
+}
+.nav-bar{
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+    height: 100px;
+    width: 60%;
+    margin: 0;
+     justify-content: center;
+     align-items: center;
+    background-color:#ffffff0a;
+    backdrop-filter: blur(25px);
+    transition: 0.4s;
+    z-index: 1;
+    }
+.nav-bar li {
+    font-size: 20px;
+     height: 100%;  
+       
+}
+.nav-bar li a{
+    display: flex;
+    align-items: center;
+    color: #d0d6f9;
+    height: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.content h2:first-child{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+
+
+.crew{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.crew-description{
+    width: 500px;
+    color: white;
+    
+    margin-top: 80px;
+    
+}
+.crew-description span{
+    color: gray;
+    font-size: 30px;
+    
+}
+
+.crew-description h2{
+    font-size: 44px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Bellefair", sans-serif;
+    font-weight: 400;
+}
+
+.crew img{
+    height: 450px;
+    position: relative;
+    bottom: 0px;
+    
+}
+
+.crew-description p{
+    font-size: 20px;
+}
+
+.carousel-nav{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: gray;
+    appearance: none;
+    cursor: pointer;
+}
+.btn-active{
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px white;
+}
