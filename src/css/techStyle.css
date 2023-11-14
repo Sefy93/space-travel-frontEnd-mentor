@@ -70,6 +70,7 @@ hr{
      align-items: center;
     background-color:#ffffff0a;
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     transition: 0.4s;
     z-index: 1;
     }
